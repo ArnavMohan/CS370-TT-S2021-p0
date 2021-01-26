@@ -1,0 +1,19 @@
+1. Give an example of a monomorphism whose underlying function is not injective
+
+2. Give an example of a epimorphism whose underlying function is not surjective
+
+3. Why do the definitions of epimorphisms and monomorphisms require enumeration over all objects not the source or target?
+
+4. How does your solution work?
+
+5. To your repository draw some diagrams of the categories involved?
+
+6. Explain how to take a total preorder category and construct a total order.
+
+7. What features of C++ make this endeavor easy.
+
+8. What features of C++ make this endeavor hard.
+
+9. What does it mean to write good code?
+
+10. Why is it important to understand this project in order to write good code?

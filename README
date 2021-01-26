@@ -1,0 +1,31 @@
+due: Feb 8 2021 (Tentative)
+assigned: Jan 25 2021
+
+--Assignment--
+You will be writing a logging library that should work on functions that look like R f(double a, double b).
+If you feel like doing more go ahead.
+A sample use has been given in tests/test.h but doesn't make much sense.
+Please note you only want to log external calls.
+Your log can be formatted however you want, but needs to include function name and argument values.
+Thus if some function calls another function in the library we don't want to log that information.
+See how good your abstraction is and write another test (name it something else).
+
+Part of the assignment is to be able to break apart build systems.
+Modify it to compile your logging code.
+
+Correctness is 10% of the grade.
+The entirety of the rest of your grade is dependent upon a clear effort to achieve code quality and the answers to the report questions.
+You may answer the report questions in the file itself, but scanning a written pdf or latex pdf included in submission are also acceptable if you find that easier.
+
+--Build--
+
+A testcase is provided in test.h, and to add your own testcase, overwrite that file. Other files in that folder will not be run.
+
+To build a test:
+	make test
+
+To build the src folder and run all the output:
+	make
+
+To remove the executable:
+	make clean
